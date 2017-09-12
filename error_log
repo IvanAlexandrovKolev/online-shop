@@ -1,0 +1,44 @@
+[11-Apr-2017 10:53:30 UTC] PHP Warning:  Missing argument 4 for NikiApi::addOrder(), called in /home/ivanurandeals/public_html/cart_products.php on line 7 and defined in /home/ivanurandeals/public_html/niki_api.php on line 52
+[11-Apr-2017 10:53:37 UTC] PHP Warning:  Missing argument 4 for NikiApi::addOrder(), called in /home/ivanurandeals/public_html/cart_products.php on line 7 and defined in /home/ivanurandeals/public_html/niki_api.php on line 52
+[11-Apr-2017 10:56:30 UTC] PHP Warning:  Missing argument 4 for NikiApi::addOrder(), called in /home/ivanurandeals/public_html/cart_products.php on line 7 and defined in /home/ivanurandeals/public_html/niki_api.php on line 52
+[11-Apr-2017 11:22:35 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template 'file:pilates.tpl' <-- 
+  thrown in /home/ivanurandeals/public_html/libs/sysplugins/smarty_internal_template.php on line 163
+[11-Apr-2017 11:24:31 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template 'file:pilates.tpl' <-- 
+  thrown in /home/ivanurandeals/public_html/libs/sysplugins/smarty_internal_template.php on line 163
+[11-Apr-2017 11:24:47 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template 'file:pilates.tpl' <-- 
+  thrown in /home/ivanurandeals/public_html/libs/sysplugins/smarty_internal_template.php on line 163
+[11-Apr-2017 11:24:48 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template 'file:pilates.tpl' <-- 
+  thrown in /home/ivanurandeals/public_html/libs/sysplugins/smarty_internal_template.php on line 163
+[11-Apr-2017 11:24:48 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template 'file:pilates.tpl' <-- 
+  thrown in /home/ivanurandeals/public_html/libs/sysplugins/smarty_internal_template.php on line 163
+[11-Apr-2017 11:24:48 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template 'file:pilates.tpl' <-- 
+  thrown in /home/ivanurandeals/public_html/libs/sysplugins/smarty_internal_template.php on line 163
+[11-Apr-2017 11:36:45 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template 'file:pilates.tpl' <-- 
+  thrown in /home/ivanurandeals/public_html/libs/sysplugins/smarty_internal_template.php on line 163
+[11-Apr-2017 11:37:57 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template 'file:pilates.tpl' <-- 
+  thrown in /home/ivanurandeals/public_html/libs/sysplugins/smarty_internal_template.php on line 163
+[11-Apr-2017 12:07:07 UTC] PHP Warning:  Illegal string offset 'fail' in /home/ivanurandeals/public_html/pilates.php on line 11
+[11-Apr-2017 12:07:13 UTC] PHP Warning:  Illegal string offset 'fail' in /home/ivanurandeals/public_html/pilates.php on line 11
+[11-Apr-2017 12:08:01 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/ivanurandeals/public_html/pilates.php on line 11
+[11-Apr-2017 12:08:23 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/ivanurandeals/public_html/pilates.php on line 11
+[11-Apr-2017 12:09:40 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/ivanurandeals/public_html/pilates.php on line 12
+[11-Apr-2017 12:09:52 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ivanurandeals/public_html/pilates.php on line 12
+[11-Apr-2017 12:10:50 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ivanurandeals/public_html/pilates.php on line 13
+[11-Apr-2017 12:11:20 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ivanurandeals/public_html/pilates.php on line 13
+[11-Apr-2017 12:11:21 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ivanurandeals/public_html/pilates.php on line 13
+[11-Apr-2017 12:11:40 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ivanurandeals/public_html/pilates.php on line 14
+[11-Apr-2017 12:11:51 UTC] PHP Warning:  Illegal string offset 'fail' in /home/ivanurandeals/public_html/pilates.php on line 17
+[11-Apr-2017 12:12:00 UTC] PHP Warning:  Illegal string offset 'fail' in /home/ivanurandeals/public_html/pilates.php on line 17
+[11-Apr-2017 12:12:01 UTC] PHP Warning:  Illegal string offset 'fail' in /home/ivanurandeals/public_html/pilates.php on line 17
+[11-Apr-2017 12:12:22 UTC] PHP Warning:  Illegal string offset 'fail' in /home/ivanurandeals/public_html/pilates.php on line 17
+[11-Apr-2017 12:12:51 UTC] PHP Warning:  Illegal string offset 'fail' in /home/ivanurandeals/public_html/pilates.php on line 17
+[11-Apr-2017 12:13:27 UTC] PHP Warning:  Illegal string offset 'fail' in /home/ivanurandeals/public_html/pilates.php on line 17
+[11-Apr-2017 12:14:10 UTC] PHP Warning:  Illegal string offset 'fail' in /home/ivanurandeals/public_html/pilates.php on line 17
+[11-Apr-2017 12:14:19 UTC] PHP Warning:  Illegal string offset 'fail' in /home/ivanurandeals/public_html/pilates.php on line 17
+[11-Apr-2017 12:14:40 UTC] PHP Warning:  Illegal string offset 'fail' in /home/ivanurandeals/public_html/pilates.php on line 17
+[11-Apr-2017 12:15:12 UTC] PHP Warning:  Illegal string offset 'fail' in /home/ivanurandeals/public_html/pilates.php on line 17
+[11-Apr-2017 13:30:17 UTC] PHP Warning:  mysqli::query(): Empty query in /home/ivanurandeals/public_html/pilates.php on line 16
+[11-Apr-2017 13:35:18 UTC] PHP Warning:  mysqli::query(): Empty query in /home/ivanurandeals/public_html/pilates.php on line 16
+[11-Apr-2017 13:38:43 UTC] PHP Warning:  mysqli::query(): Empty query in /home/ivanurandeals/public_html/pilates.php on line 16
+[12-Apr-2017 14:42:25 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template 'file:.tpl' <-- 
+  thrown in /home/ivanurandeals/public_html/libs/sysplugins/smarty_internal_template.php on line 163

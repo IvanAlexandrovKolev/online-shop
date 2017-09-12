@@ -1,0 +1,45 @@
+#RewriteEngine On
+
+#RewriteRule ^inc/.*$ index.php
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^(.*)$ index.php [QSA,L]
+
+AddDefaultCharset UTF-8
+
+RewriteEngine on
+Options +FollowSymLinks
+Options -Indexes
+RewriteBase /
+
+RewriteRule ^googlead([a-zA-Z0-9_]+).html googlead$1.html [L]
+
+# affiliate
+
+
+RewriteRule ^js/([a-zA-Z0-9-_]+).js /index.php?page=ajax&action=js&option=$1&%{QUERY_STRING} [NC]
+
+
+RewriteRule ^([a-zA-Z0-9_]+).html index.php?page=$1&%{QUERY_STRING}
+RewriteRule ^([a-zA-Z0-9_]+)(\/?)$ index.php?page=$1&%{QUERY_STRING}
+
+RewriteRule ^([a-zA-Z0-9_]+)/([a-zA-Z0-9_]+).(html|png|xml) index.php?page=$1&id=$2&%{QUERY_STRING}
+RewriteRule ^([a-zA-Z0-9_]+)/([a-zA-Z0-9_]+)(\/?)$ index.php?page=$1&id=$2&%{QUERY_STRING}
+
+#RewriteRule ^([a-zA-Z0-9_]+)/([a-zA-Z0-9_]+)/([a-zA-Z0-9_]+).html$ index.php?page=$1&action=$2&option=$3&%{QUERY_STRING}
+#RewriteRule ^([a-zA-Z0-9_]+)/([a-zA-Z0-9_]+)/([a-zA-Z0-9_]+)(\/?)$ Register/index.php?page=$1&action=$2&option=$3&%{QUERY_STRING}
+
+
+#RewriteRule ^([a-zA-Z0-9_]+)/([a-zA-Z0-9_]+)/([a-zA-Z0-9_]+)/([a-zA-Z0-9_]+).html$ index.php?page=$1&action=$2&option=$3&id=$4&%{QUERY_STRING}
+#RewriteRule ^([a-zA-Z0-9_]+)/([a-zA-Z0-9_]+)/([a-zA-Z0-9_]+)/([a-zA-Z0-9_]+)(\/?)$ Register/index.php?page=$1&action=$2&option=$3&id=$4&%{QUERY_STRING}
+
+
+# language
+RewriteRule ^lang/([a-zA-Z]+).html index.php?page=dashboard&lang=$1
+
+# forums
+RewriteRule ^([a-zA-Z0-9_]+)/([a-zA-Z0-9_]+)/([0-9]+).html index.php?page=$1&action=$2&id=$3&%{QUERY_STRING}
+
+RewriteRule ^([a-zA-Z0-9_]+)/([a-zA-Z0-9_]+)-([[a-zA-Z0-9_]+).html index.php?page=$1&id=$2&action=$3&%{QUERY_STRING}
+RewriteRule ^([a-zA-Z0-9_]+)/([a-zA-Z0-9_]+)/([0-9]+)-([[a-zA-Z0-9_]+).html index.php?page=$1&action=$2&option=$4&id=$3&%{QUERY_STRING}
+
+ErrorDocument 404 /404.html
